@@ -41,6 +41,18 @@ from selenium import webdriver
 driver = webdriver.Chrome/Edge/Firefox(executable_path="D:\selenium\chromedriver_win32\chromedriver.exe")
 driver.get("https://google.com")
 
+
+# trail 3 website link
+
+https://fs2.formsite.com/meherpavan/form2/index.html?1537702596407 
+
+# trail 2 webiste link
+
+http://tutorialsninja.com/demo/
+
+
+
+
 # ide
 
 to run project create .py file in any folder
