@@ -1,0 +1,29 @@
+from selenium import webdriver
+
+from selenium.webdriver.support.ui import Select
+
+#from selenium.webdriver.common.alert import alert
+from selenium.webdriver.common.action_chains import ActionChains
+import time
+
+#from selenium.webdriver.support.ui import Select
+
+driver = webdriver.Chrome(executable_path="D:\selenium\chromedriver_win32\chromedriver.exe")
+
+driver.get('https://jqueryui.com/draggable/')
+
+
+#driver.find_element_by_xpath("//*[@id='mainContent']").click()
+driver.switch_to.frame(0)
+
+source1=driver.find_element_by_id('draggable')
+
+target1=driver.find_element_by_id('droppable')
+
+actions2= ActionChains(driver)
+
+actions2.drag_and_drop(source1,target1).perform()
+
+
+#time.sleep(5)
+
