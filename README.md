@@ -75,11 +75,12 @@ https://www.w3schools.com/js/js_htmldom.asp#:~:text=The%20DOM%20defines%20a%20st
 
 # basic things u have to know
 
-its a open source
-its a web framework which sup...multiple browser,os,
-versatile and adopted everywhere this also used by java,pearl........
-web driver - it will drive entire script(Commands)ex...login(login page.....username password enter button config)
-selenium rc-remote contoller(rc client and server)client test cases will be written and testing is done by server whichj contains website url and module of website)
+1. its a open source
+2. its a web framework which sup...multiple browser,os,
+3. versatile and adopted everywhere this also used by java,pearl........
+4. web driver-it will drive entire script(Commands)ex...login(login page.....username password enter button config)
+5. selenium rc-remote contoller(rc client and server)client test cases will be written and testing is done by server whichj contains website url and module of website)
 -used to test single piece of code called selenium rc
-selenium ide- testing environmnet
-selenium grid- wrirte test cases on pushses to grid it will test each and evry configua.... supports multiple os,and tools
+6. selenium ide- testing environmnet
+7. selenium grid- wrirte test cases on pushses to grid it will test each and evry configua.... supports multiple os,and tools
+
